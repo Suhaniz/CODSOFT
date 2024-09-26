@@ -1,0 +1,95 @@
+#index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inspiration: [Admired Person's Name]</title>
+</head>
+<body>
+    <header>
+        <h1>Inspiration: [Admired Person's Name]</h1>
+    </header>
+    <main>
+        <section class="bio">
+            <img src="image.jpg" alt="[Admired Person's Name]" class="profile-image">
+            <p>[Admired Person's Name] is known for their incredible qualities such as:</p>
+            <ul>
+                <li>Compassionate</li>
+                <li>Innovative</li>
+                <li>Resilient</li>
+                <li>Visionary</li>
+            </ul>
+        </section>
+
+        <section class="qualities">
+            <h2>Admirable Qualities</h2>
+            <p>[Admired Person's Name] has shown remarkable strength and determination throughout their life. Here are a few qualities that truly inspire me:</p>
+            <p><strong>Compassion:</strong> They care deeply about others and strive to make a positive impact in their community.</p>
+            <p><strong>Innovation:</strong> Always thinking outside the box, they challenge the status quo and inspire others to do the same.</p>
+            <p><strong>Resilience:</strong> No matter the obstacles faced, they always find a way to overcome challenges and continue moving forward.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Created with love and admiration for [Admired Person's Name].</p>
+    </footer>
+</body>
+</html>
+
+#styles.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.bio, .qualities {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4a90e2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
