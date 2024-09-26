@@ -1,0 +1,109 @@
+#index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Your Tagline or Brief Introduction</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="your-image.jpg" alt="A picture of you" class="profile-img">
+        <p>A short bio highlighting your skills and experience. Talk about what you do, your background, and your interests.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+            <li>Skill 4</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <img src="project1.jpg" alt="Project 1 screenshot">
+            <p>Description of Project 1, highlighting the technologies used and your role.</p>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <img src="project2.jpg" alt="Project 2 screenshot">
+            <p>Description of Project 2, highlighting the technologies used and your role.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" target="_blank">Download my Resume</a></p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+#styles.css
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
